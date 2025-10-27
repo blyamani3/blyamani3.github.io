@@ -102,14 +102,16 @@ const questions = [
     {
         type: "questions", // Tipus de pregunta
         category: "energia",
-        text: `Un rentaplats ha consumit \\(0{,}9 \\, \\text{kWh}\\) d’energia elèctrica per a escalfar \\(11 \\, \\text{L}\\) d’aigua des d’una temperatura ambient \\(T_{amb} = 10 \\, ^\\circ \\text{C}\\) a una temperatura \\(T = 70 \\, ^\\circ \\text{C}\\). La calor específica de l’aigua és \\(c_e = 4{,}18 \\, \\frac{\\text{J}}{\\text{g} \\cdot ^\\circ \\text{C}}\\). El rendiment del rentaplats és:`,
+        text: `Un motor de benzina de quatre temps consumeix 10,2 L/h quan gira a 4 000 min–1. El
+poder calorífic de la benzina és 42 000 kJ/kg i la seva densitat, 0,8 kg/L. Quina és la massa de
+combustible consumida en un cicle del motor?`,
         options: [
-            { text: "11,74 %", value: "a" },
-            { text: "27,59 %", value: "b" },
-            { text: "76,63 %", value: "c" },
-            { text: "85,15 %", value: "d" }
+            { text: "30 mg", value: "a" },
+            { text: "34 mg %", value: "b" },
+            { text: "68mg %", value: "c" },
+            { text: "136mg %", value: "d" }
         ],
-        correctAnswer: "d",
+        correctAnswer: "c",
         steps: `
             \\[
             m = 11 \\, \\text{L} \\times 1000 \\, \\text{g/L} = 11000 \\, \\text{g}
