@@ -131,8 +131,7 @@ assajos de tracció utilitzant dos acers diferents. A partir de l’observació 
         correctAnswer: "b",
        
             <br><br>
-            <img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
-        images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+        images: `<img src="ruta/a/2024serie1q2.png" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
     }
 ];
 
