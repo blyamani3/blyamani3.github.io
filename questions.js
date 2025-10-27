@@ -120,8 +120,8 @@ combustible consumida en un cicle del motor?`,
     {
         type: "questions", // Tipus de pregunta
         category: "materials",
-        text: `La figura mostra les corbes tensió-deformació obtingudes en
-assajos de tracció utilitzant dos acers diferents. A partir de l’observació d’aquesta figura, es pot afirmar que`,
+        text:  `La figura mostra les corbes tensió-deformació obtingudes en
+assajos de tracció utilitzant dos acers diferents. A partir de l &#39; observació d &#39;aquesta figura, es pot afirmar que `,
         options: [
             { text: "el mòdul d’elasticitat dels dos acers no es pot determinar en aquest assaig.", value: "a" },
             { text: "el mòdul d’elasticitat dels dos acers és el mateix.", value: "b" },
@@ -131,7 +131,7 @@ assajos de tracció utilitzant dos acers diferents. A partir de l’observació 
         correctAnswer: "b",
        
             <br><br>
-        images: `<img src="ruta/a/2024serie1q2.png" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
+        images: `<img src="https://blyamani3.github.io/images/2024serie1q2.png" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
     }
 ];
 
