@@ -129,6 +129,55 @@ combustible consumida en un cicle del motor?`,
         correctAnswer: "b",
        
         images: `<img src="https://blyamani3.github.io/images/2024serie1q2.png" alt="gràfic que mostra allargament unitari en relació a la tensió">`  // Imatge opcional al final de la pregunta
-    }
+    },
+    {
+        type: "questions", // Tipus de pregunta
+        category: "energia",
+        text:    `Una resistència elèctrica proporciona 3 000 J a 50 ml d’aigua que es troben a 5 °C. Sabent
+que la calor específica de l’aigua és ce = 4,18 kJ/(kg K), la temperatura final de l’aigua serà`,
+        options: [
+            { text: "1,435 °C", value: "a" },
+            { text: "6,435 °C", value: "b" },
+            { text: "14,35 °C", value: "c" },
+            { text: "19,35 °C", value: "d" }
+        ],
+        correctAnswer: "d",
+       
+        images: `<img src="https://blyamani3.github.io/images/2024serie1q2.png" alt="gràfic que mostra allargament unitari en relació a la tensió">`  // Imatge opcional al final de la pregunta
+    } 
+    ,{
+        type: "questions", // Tipus de pregunta
+        category: "energia",
+        text:    `Un habitatge disposa de vuit plaques solars. L’àrea total de les plaques és de 4,4 m2
+, i les
+seves condicions de localització fan que es disposi, el mes de setembre, d’una irradiació diària
+mitjana de 13 kW h/m2
+. Si les plaques tenen un rendiment del 0,3, l’energia produïda durant
+el mes de setembre serà de`,
+        options: [
+            { text: "514,8 kW h", value: "a" },
+            { text: "1 853 J", value: "b" },
+            { text: "58,52 J", value: "c" },
+            { text: "52,19 kW h", value: "d" }
+        ],
+        correctAnswer: "a",
+       
+        images: `<img src="https://blyamani3.github.io/images/2024serie1q2.png" alt="gràfic que mostra allargament unitari en relació a la tensió">`  // Imatge opcional al final de la pregunta
+    } 
+    ,{
+        type: "questions", // Tipus de pregunta
+        category: "pneumatica",
+        text:    `El motor d’una motocicleta de quatre temps té una cursa de 50,6 mm i un diàmetre de
+cilindre de 56 mm. Si la relació de compressió és 7,3, quin és el volum de la cambra de combustió?`,
+        options: [
+            { text: " 124,6 cm3", value: "a" },
+            { text: "112,6 cm3", value: "b" },
+            { text: "39,56 cm3", value: "c" },
+            { text: "19,78 cm3", value: "d" }
+        ],
+        correctAnswer: "a",
+       
+        images: `<img src="https://blyamani3.github.io/images/2024serie1q2.png" alt="gràfic que mostra allargament unitari en relació a la tensió">`  // Imatge opcional al final de la pregunta
+    } 
 ];
 
