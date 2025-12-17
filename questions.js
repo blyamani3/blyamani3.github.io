@@ -143,7 +143,7 @@ que la calor específica de l’aigua és ce = 4,18 kJ/(kg K), la temperatura fi
         ],
         correctAnswer: "d",
        
-        images: `<img src="https://blyamani3.github.io/images/2024serie1q2.png" alt="gràfic que mostra allargament unitari en relació a la tensió">`  // Imatge opcional al final de la pregunta
+       
     } 
     ,{
         type: "questions", // Tipus de pregunta
@@ -162,7 +162,7 @@ el mes de setembre serà de`,
         ],
         correctAnswer: "a",
        
-        images: `<img src="https://blyamani3.github.io/images/2024serie1q2.png" alt="gràfic que mostra allargament unitari en relació a la tensió">`  // Imatge opcional al final de la pregunta
+        
     } 
     ,{
         type: "questions", // Tipus de pregunta
@@ -177,7 +177,7 @@ cilindre de 56 mm. Si la relació de compressió és 7,3, quin és el volum de l
         ],
         correctAnswer: "a",
        
-        images: `<img src="https://blyamani3.github.io/images/2024serie1q2.png" alt="gràfic que mostra allargament unitari en relació a la tensió">`  // Imatge opcional al final de la pregunta
+
     } 
 ];
 
