@@ -113,8 +113,6 @@ combustible consumida en un cicle del motor?`,
         ],
         correctAnswer: "c",
        
-         images: `<img src="ruta/a/imatgeResposta.jpg" alt="Imatge relacionada amb la resposta">`,  // Imatge opcional al final de la resposta
-         images: `<img src="ruta/a/imatgePregunta.jpg" alt="Imatge relacionada amb la pregunta">`  // Imatge opcional al final de la pregunta
     },
     {
         type: "questions", // Tipus de pregunta
@@ -176,6 +174,40 @@ cilindre de 56 mm. Si la relació de compressió és 7,3, quin és el volum de l
             { text: "19,78 cm3", value: "d" }
         ],
         correctAnswer: "a",
+       
+
+    } 
+     ,{
+        type: "questions", // Tipus de pregunta
+        category: "motors",
+        text:    `Una pantalla de projecció té una massa m = 3 kg a la part inferior per a mantenir-la sempre tibada. Un motor reductor és l’encarregat d’enrotllar la pantalla,
+de longitud h = 1,5 m, en el corró de diàmetre d = 250 mm, que es troba articulat
+amb el sostre, en un temps t = 3 s. Quina és l’energia mecànica necessària per a
+enrotllar tota la pantalla?`,
+        options: [
+            { text: "44,13 J", value: "a" },
+            { text: "73,55 J", value: "b" },
+            { text: "22,07 J", value: "c" },
+            { text: "14,71 J", value: "d" }
+        ],
+        correctAnswer: "a",
+       
+
+    } 
+    ,{
+        type: "questions", // Tipus de pregunta
+        category: "motors",
+        text:    `Un inventor ha construït una màquina tèrmica que funciona entre dues fonts tèrmiques,
+una de 270 °C i una altra de 610 °C. Quina de les afirmacions següents és certa?`,
+        options: [
+            { text: "El rendiment de la màquina proposada sempre estarà per sobre del 40 %.", value: "a" },
+            { text: " El rendiment de la màquina proposada no podrà superar mai el 38,5 %.", value: "b" },
+            { text: "Perquè una màquina tèrmica funcioni, el focus fred sempre s’ha de trobar per sota de
+0 °C.", value: "c" },
+            { text: "Perquè una màquina tèrmica funcioni, el focus calent sempre s’ha de trobar per sobre
+de 700 °C", value: "d" }
+        ],
+        correctAnswer: "b",
        
 
     } 
