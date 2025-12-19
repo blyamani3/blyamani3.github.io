@@ -200,9 +200,9 @@ enrotllar tota la pantalla?`,
         text:    `Un inventor ha construït una màquina tèrmica que funciona entre dues fonts tèrmiques,
 una de 270 °C i una altra de 610 °C. Quina de les afirmacions següents és certa?`,
         options: [
-            { text: "El rendiment de la màquina proposada sempre estarà per sobre del 40 %.", value: "a" },
-            { text: " El rendiment de la màquina proposada no podrà superar mai el 38,5 %.", value: "b" },
-            { text: "Perquè una màquina tèrmica funcioni, el focus fred sempre s’ha de trobar per sota de 0 °C.", value: "c" },
+            { text: "El rendiment de la màquina proposada sempre estarà per sobre del 40 %", value: "a" },
+            { text: " El rendiment de la màquina proposada no podrà superar mai el 38,5 %", value: "b" },
+            { text: "Perquè una màquina tèrmica funcioni, el focus fred sempre s’ha de trobar per sota de 0 °C", value: "c" },
             { text: "Perquè una màquina tèrmica funcioni, el focus calent sempre s’ha de trobar per sobre de 700 °C", value: "d" }
         ],
         correctAnswer: "b",
