@@ -16,7 +16,7 @@ const questions = [
         type: "exercicis",
         category: "materials",
         text: `<strong>Qüestió 2:</strong> La figura mostra les corbes tensió-deformació obtingudes en assajos de tracció de dos acers. El mòdul d'elasticitat (E)...
-               <br>[INSERTAR FOTO: pau_tecn24jl.pdf, pàgina 2, Qüestió 2]`,
+                <br>`,
         correctAnswer: "d",
         steps: `El mòdul d'elasticitat correspon al pendent de la zona elàstica (recta inicial). Com que el pendent de l'acer 2 és més pronunciat que el de l'acer 1, el seu mòdul d'elasticitat és més gran.`
     },
@@ -63,7 +63,7 @@ const questions = [
             <strong>a) Taula de veritat:</strong> (Es resumeix en la funció lògica).
             <strong>b) Funció lògica:</strong> 
             \\( a = h \cdot (c + t + e) + \bar{h} \cdot (c \cdot t + c \cdot e + t \cdot e) \\)
-            <strong>c) Diagrama:</strong> [Insertar foto esquemàtic de portes AND/OR per a la funció anterior].`
+            <strong>c) Diagrama:</strong> `
     },
 
     // --- EXERCICI 3: PATINET ELÈCTRIC ---
@@ -109,7 +109,7 @@ const questions = [
         type: "exercicis",
         category: "organitzacio",
         text: `<strong>Exercici 5:</strong> Força del múscul tibial anterior. Massa peu \\(2,2 \text{ kg}\\), \\(a = 30 \text{ mm}\\), \\(b = 35 \text{ mm}\\) (distància de G a O), angle \\(9^\circ\\).
-               <br>[INSERTAR FOTO: pau_tecn24jl.pdf, pàgina 10, Exercici 5]`,
+               <br>`,
         steps: `
             <strong>a) DCL:</strong> Dibuixar forces: Pes (P) a G cap avall, Força muscular (Fm) a Q, Reaccions (Rx, Ry) a O.
             <br><strong>b) Força Fm:</strong>
@@ -125,7 +125,7 @@ const questions = [
         type: "exercicis",
         category: "electrics",
         text: `<strong>Exercici 6:</strong> Circuit AC (50 Hz). \\(R_1 = 5 \Omega\\), \\(L_1 = 7 \text{ mH}\\). Potència activa \\(W_1 = 950 \text{ W}\\). Determineu \\(X_L\\), \\(\cos \phi\\), \\(Z\\), Corrent (A) i Tensió (U).
-               <br>[INSERTAR FOTO: pau_tecn24jl.pdf, pàgina 12, Exercici 6]`,
+               <br>`,
         steps: `
             <strong>a) Reactància:</strong> \\( X_L = 2 \cdot \pi \cdot f \cdot L = 2 \cdot \pi \cdot 50 \cdot 0,007 = 2,2 \Omega \\).
             <strong>b) Factor de potència:</strong> 
@@ -161,7 +161,7 @@ const questions = [
         type: "exercicis",
         category: "materials",
         text: `<strong>Qüestió 3:</strong> La figura mostra les corbes tensió-deformació d'un acer d'alta resistència i un bronze. Què es pot afirmar?
-               <br>[INSERTAR FOTO: pau_tecn24sl.pdf, pàgina 2, Qüestió 3]`,
+               <br>`,
         correctAnswer: "a",
         steps: `S'observa que l'acer d'alta resistència es trenca amb molt poca deformació plàstica en comparació amb el bronze, el que indica que és més fràgil.`
     },
@@ -190,7 +190,7 @@ const questions = [
         type: "exercicis",
         category: "control",
         text: `<strong>Exercici 2:</strong> Disseny de l'encesa del segment central (s) per a números del 00 al 15 (binari a,b,c,d). El segment s'encén en els números: 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15.
-               <br>[INSERTAR FOTO: pau_tecn24sl.pdf, pàgina 4, Exercici 2]`,
+               <br>`,
         steps: `
             <strong>a) Taula de veritat:</strong> El segment central s'encén per a tots els números excepte 0, 1 i 7.
             <strong>b) Funció lògica:</strong> Mitjançant mapa de Karnaugh o mintermes: \\( s = a + b \\cdot \\bar{c} + b \\cdot d + c \\cdot \\bar{d} + \\dots \\) (simplificar segons taula).
@@ -202,7 +202,7 @@ const questions = [
         type: "exercicis",
         category: "energia",
         text: `<strong>Exercici 3:</strong> Cistella de bàsquet (100 kg). Canvi d'angle de \\(\\varphi_1 = 45^{\\circ}\\) a \\(\\varphi_2 = 15^{\\circ}\\). \\(\\omega = 0{,}1745 \\text{ rad/s}\\). \\(\\eta = 0{,}8\\).
-               <br>[INSERTAR FOTO: pau_tecn24sl.pdf, pàgina 6, Exercici 3]`,
+               <br>`,
         steps: `
             <strong>a) Energia mecànica:</strong>
             - El centre de masses G puja. \\( h = L \\cdot \\sin(\\varphi) \\).
@@ -230,7 +230,7 @@ const questions = [
         type: "exercicis",
         category: "organitzacio",
         text: `<strong>Exercici 5:</strong> Persona amb braços estirats. \\(m_{braç} = 5 \\text{ kg}\\), \\(m_{pes} = 2 \\text{ kg}\\). Múscul deltoide a 20°.
-               <br>[INSERTAR FOTO: pau_tecn24sl.pdf, pàgina 10, Exercici 5]`,
+               <br>`,
         steps: `
             <strong>a) DCL:</strong> Força muscular \\(F_m\\) a Q, Pes del braç a G, Pes a P, Reaccions a O.
             <strong>b) Força muscular:</strong>
@@ -293,7 +293,7 @@ const questions = [
         type: "exercicis",
         category: "maquines",
         text: `<strong>Qüestió 4:</strong> Bloc de \\( m = 2 \text{ kg} \\) penjat d'un sistema de politges. Quina força F cal fer per mantenir el bloc en repòs?
-               <br>[INSERTAR FOTO: pau_tecn24jl_tei.pdf, pàgina 2, Qüestió 4]`,
+               <br>`,
         correctAnswer: "d",
         steps: `
             - Pes del bloc: \\( P = m \cdot g = 2 \cdot 9,807 = 19,614 \text{ N} \\).
@@ -319,7 +319,7 @@ const questions = [
             <strong>a) Taula de veritat:</strong> l=1 per a 0 (0000), 1 (0001), 3 (0011), 5 (0101), 7 (0111), 9 (1001), 11 (1011), 13 (1101), 15 (1111).
             <strong>b) Funció lògica:</strong> El llum s'encén si l'últim bit (d) és 1 (senar) o si tots els bits són 0.
             \\( l = d + (\bar{a} \cdot \bar{b} \cdot \bar{c} \cdot \bar{d}) \\).
-            <strong>c) Esquema de contactes:</strong> Un contacte NO per 'd' en paral·lel amb una branca de quatre contactes NC (a,b,c,d) en sèrie.`
+            <strong>c) Esquema de contactes:</strong> `
     },
 
     // --- EXERCICI 3: ESTUFA DE PÈLLETS ---
@@ -341,7 +341,7 @@ const questions = [
         type: "exercicis",
         category: "motors",
         text: `<strong>Exercici 4:</strong> Transmissió de moto amb 6 rodes dentades. \\( z_1=23, z_2=57, z_3=16, z_4=33, z_5=18, z_6=38 \\). \\( n_{mot}=4.000 \text{ min}^{-1} \\), \\( P_{mot}=15 \text{ kW} \\), \\( \eta=0,9 \\), roda \\( d=0,6 \text{ m} \\).
-               <br>[INSERTAR FOTO: pau_tecn24jl_tei.pdf, pàgina 8, Exercici 4]`,
+               <br>`,
         steps: `
             <strong>a) Relació de transmissió:</strong> 
             \\( \tau = \frac{z_1 \cdot z_3 \cdot z_5}{z_2 \cdot z_4 \cdot z_6} = \frac{23 \cdot 16 \cdot 18}{57 \cdot 33 \cdot 38} = \frac{6.624}{71.478} = 0,09267 \\).
